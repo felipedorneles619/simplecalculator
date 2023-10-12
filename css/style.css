@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #444;
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #666;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    border: 1px solid #666;
+    cursor: pointer;
+}
